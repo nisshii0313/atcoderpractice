@@ -11,6 +11,6 @@ line = readlines.map(&:chomp) #文字列
 line = readlines.map(&:chomp).map(&:to_i) #数値
 
 # 複数行複数要素
-lines = readlines(chomp: true).map{|line| line.split(' ')} #文字列
-lines = readlines(chomp: true).map{|line| line.split(' ').map(&:to_i)} #数値
+lines = readlines.map{|line| line.split(' ')} #文字列
+lines = readlines.map{|line| line.split(' ').map(&:to_i)} #数値
 

@@ -1,0 +1,1 @@
+puts gets.gsub("a"," ").gsub("i"," ").gsub("u"," ").gsub("e"," ").gsub("o"," ").split(' ').join
