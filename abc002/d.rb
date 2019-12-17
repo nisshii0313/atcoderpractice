@@ -1,7 +1,6 @@
 lines = readlines.map{|line| line.split(' ').map(&:to_i)}
 a = []
 b = []
-d = []
 for i in 1..lines[0][0]
   a.push([*1..lines[0][0]].combination(i).to_a)
 end
